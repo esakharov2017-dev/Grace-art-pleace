@@ -23,4 +23,4 @@ export const galleryImages = [
     src: "/hair.jpg",
     alt: "Рабочее место парикмахера",
   },
-];
+]
