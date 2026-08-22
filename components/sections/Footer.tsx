@@ -40,13 +40,13 @@ export default function Footer() {
             </p>
             <div className="flex flex-col gap-3">
               <a href="tel:+79990000000" className="text-sm text-white/70 hover:text-white transition-colors duration-300">
-                +7 (999) 000-00-00
+                +7 (993) 500-84-40
               </a>
               <p className="text-sm text-white/70">
-                г. Москва, ул. Примерная, 15
+                улица Мельникова, 38, г.Екатеринбург
               </p>
               <p className="text-sm text-white/70">
-                Ежедневно, 10:00 — 21:00
+                Ежедневно, 10:00 — 22:00
               </p>
             </div>
           </div>
