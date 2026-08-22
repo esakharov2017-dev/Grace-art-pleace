@@ -11,7 +11,7 @@ export const services = [
   },
   {
     title: "Аренда рабочего места",
-    subtitle: "Для маникюрного мастера",
+    subtitle: "Для мастера маникюра",
     image: "/manicure.jpg",
     prices: [
       { label: "1 час", value: "350 ₽" },
