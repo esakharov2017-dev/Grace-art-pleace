@@ -27,21 +27,21 @@ export default function Contacts() {
                 href="tel:+79990000000"
                 className="text-2xl md:text-3xl font-medium text-[#1C1C1C] hover:text-[#B59672] transition-colors duration-300"
               >
-                +7 (999) 000-00-00
+                +7 (993) 500-84-40
               </a>
             </div>
 
             <div>
               <p className="text-sm text-[#6D6D6D] mb-2">Адрес</p>
               <p className="text-xl font-medium text-[#1C1C1C]">
-                г. Москва, ул. Примерная, 15
+                улица Мельникова, 38, г.Екатеринбург
               </p>
             </div>
 
             <div>
               <p className="text-sm text-[#6D6D6D] mb-2">Режим работы</p>
               <p className="text-xl font-medium text-[#1C1C1C]">
-                Ежедневно, 10:00 — 21:00
+                Ежедневно, 10:00 — 22:00
               </p>
             </div>
 
