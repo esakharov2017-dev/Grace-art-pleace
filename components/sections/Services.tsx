@@ -25,16 +25,17 @@ export default function Services() {
           {services.map((service, index) => (
             <div
               key={index}
-              className="bg-white rounded-2xl overflow-hidden"
+              className="bg-white rounded-2xl overflow-hidden group"
             >
               {/* Фото */}
               <div className="relative h-56 w-full">
                 <Image
-                  src={service.image}
-                  alt={service.title}
-                  fill
-                  className="object-cover"
-                />
+  src={service.image}
+  alt={service.title}
+  fill
+  className="object-cover opacity-90 transition-opacity duration-300 group-hover:opacity-100"
+/>
+                
               </div>
 
               {/* Текст и цены */}
