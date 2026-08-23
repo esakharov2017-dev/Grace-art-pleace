@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 import { Container } from "./ui/Container";
 
 export default function Navbar() {
@@ -17,14 +18,15 @@ export default function Navbar() {
     <header className="py-6 bg-[#F7F5F1]">
       <Container>
         <nav className="flex items-center justify-between">
-          {/* Логотип */}
-          <a href="#" className="flex flex-col leading-none">
-            <span className="text-lg font-semibold tracking-wide text-[#1C1C1C]">
-              GRACE
-            </span>
-            <span className="text-[10px] tracking-[0.3em] text-[#6D6D6D] uppercase">
-              Art Place
-            </span>
+          {/* Логотип-картинка */}
+          <a href="#" className="relative w-[140px] h-[50px]">
+            <Image
+              src="/logo.png"
+              alt="Grace Art Place"
+              fill
+              className="object-contain"
+              priority
+            />
           </a>
 
           {/* Десктоп навигация */}
