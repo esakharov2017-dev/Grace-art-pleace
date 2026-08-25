@@ -57,7 +57,7 @@ export default function Contacts() {
 
             <div className="pt-2">
               <Button
-                variant="primary"
+                variant="secondary"
                 size="large"
                 href="https://dikidi.net/753067"
               >
