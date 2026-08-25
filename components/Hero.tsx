@@ -7,6 +7,7 @@ export default function Hero() {
     <section className="py-4 md:py-6">
       <Container>
         <div className="relative rounded-3xl overflow-hidden h-[500px] md:h-[600px] lg:h-[700px]">
+          {/* Фоновое фото */}
           <Image
             src="/hero.jpg"
             alt="Интерьер Grace Art Place"
@@ -14,7 +15,11 @@ export default function Hero() {
             className="object-cover"
             priority
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
+
+          {/* Лёгкий эффект стекла + градиент для читаемости */}
+          <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent backdrop-blur-[1px]" />
+
+          {/* Контент поверх */}
           <div className="absolute inset-0 flex flex-col justify-end p-8 md:p-12 lg:p-16">
             <p className="text-sm tracking-[0.25em] text-white/70 uppercase mb-4">
               Beauty Coworking
