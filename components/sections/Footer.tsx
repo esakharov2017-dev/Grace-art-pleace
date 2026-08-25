@@ -46,7 +46,7 @@ export default function Footer() {
                 улица Мельникова, 38, г.Екатеринбург
               </p>
               <p className="text-sm text-white/70">
-                Ежедневно, 10:00 — 22:00
+                Ежедневно, 10:00 — 21:00
               </p>
             </div>
           </div>
